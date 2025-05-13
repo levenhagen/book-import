@@ -1,0 +1,10 @@
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  generateName: prehook-ansible
+  namespace: openshift-gitops
+  annotations:
+    argocd.argoproj.io/hook: PreSync
+spec:
+  job_template_name: Demo Job Template
+  tower_auth_secret: aapaccess
