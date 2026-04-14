@@ -7,4 +7,4 @@ metadata:
     argocd.argoproj.io/hook: PreSync
 spec:
   job_template_name: Demo Job Template
-  tower_auth_secret: aap-25-bu
+  tower_auth_secret: aapaccess
