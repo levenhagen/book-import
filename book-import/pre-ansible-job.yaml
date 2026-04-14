@@ -6,5 +6,5 @@ metadata:
   annotations:
     argocd.argoproj.io/hook: PreSync
 spec:
-  job_template_name: Demo Job Template
+  job_template_name: snow-create-change-record
   tower_auth_secret: aapaccess
